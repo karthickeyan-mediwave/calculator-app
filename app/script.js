@@ -54,7 +54,7 @@ subtract.addEventListener("click", function () {
 });
 let addition = document.querySelector("#addition");
 addition.addEventListener("click", function () {
-  form1.answer.value += "-";
+  form1.answer.value += "+";
 });
 let multiply = document.querySelector("#multiply");
 multiply.addEventListener("click", function () {
@@ -62,5 +62,5 @@ multiply.addEventListener("click", function () {
 });
 let total = document.querySelector("#total-answer");
 total.addEventListener("click", function () {
-  form1.answer.value = eval(form1.answer.value);
+  form1.answer.value = form1.answer.value + " = " + eval(form1.answer.value);
 });

@@ -17,12 +17,12 @@ h1 {
 form {
   border: 1px solid;
   border-radius: 2px;
-  background-color: black;
+  background-color: gray;
 }
 
 input {
   /* width: 35px; */
-  background-color: black;
+  background-color: #5b5252;
   color: white;
   border: 1px solid gray;
   padding: 18px;

@@ -20,6 +20,7 @@ h1 {
 form {
   border: 1px solid;
   border-radius: 2px;
+  background-color: black;
 }
 
 input {
@@ -27,8 +28,8 @@ input {
   background-color: black;
   color: white;
   border: 1px solid gray;
-  padding: 26px;
-  font-size: 15px;
+  padding: 18px;
+  font-size: 44px;
   margin: 0;
 }
 
@@ -38,8 +39,9 @@ input {
   padding: 20px;
   margin: auto;
   height: 50px;
+  font-size: 45px;
 }
-#value-0 {
+#zero {
   width: 195px;
 }
 .orange-color {
